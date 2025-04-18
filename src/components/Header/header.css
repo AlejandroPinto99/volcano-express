@@ -1,0 +1,72 @@
+.container {
+    height: 820px;
+    background-image: url('../../assets/big-hero-image.png');
+    background-size: cover;        
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: rgba(0, 0, 0, 0.9); /* 50% de opacidad */
+}
+
+.header-container {
+    height: 200px;
+    display: flex;
+    align-items: start;
+    padding-top: 8px;
+    border: 0;
+    background-color: transparent;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+.slogan {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        height: 400px;
+        position: relative;
+    }
+
+    .slogan {
+        font-size: 32px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: 50px;
+        width: auto;
+    }
+
+    .container {
+        height: 250px;
+        position: relative;
+    }
+
+    .slogan {
+        font-size: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .header-container {
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 12px;
+    }
+}
