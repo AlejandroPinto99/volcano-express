@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <ul className="navbar-container">
             <li><a href='#home'>Inicio</a></li>
-            <li><a href='#destinies'>Destinos</a></li>
+            <li><a href='#destinos'>Destinos</a></li>
             <li><a href='#buses'>Autobuses</a></li>
             <li><a href='#services'>Servicios</a></li>
         </ul>

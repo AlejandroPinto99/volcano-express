@@ -17,6 +17,8 @@ body {
 
 .destinies > h2 {
   font-size: 32px;
+  color: #f05446;
+  font-weight: bold;
 }
 
 .embla {
@@ -30,3 +32,20 @@ body {
   min-width: 0;
 }
 
+.controls-container {
+  display: flex;
+  width: 100%;
+  padding: 16px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-button {
+  background-color: #f05446;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 80%;
+  padding: 8px 12px;
+}
