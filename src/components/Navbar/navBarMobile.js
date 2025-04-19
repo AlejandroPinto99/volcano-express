@@ -12,9 +12,9 @@ export default function NavbarMobile() {
                 ) : (
                         <ul className="open-mobile-menu">
                             <li><a href='#home'>Inicio</a></li>
-                            <li><a href='#destinies'>Destinos</a></li>
+                            <li><a href='#destinos'>Destinos</a></li>
                             <li><a href='#buses'>Autobuses</a></li>
-                            <li><a href='#services'>Servicios</a></li>
+                            <li><a href='#servicios'>Servicios</a></li>
                         </ul>
                 )
             }
