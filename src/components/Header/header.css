@@ -50,12 +50,12 @@ img {
     }
 
     .container {
-        height: 250px;
+        height: 300px;
         position: relative;
     }
 
     .slogan {
-        font-size: 10px;
+        font-size: 16px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -64,7 +64,7 @@ img {
     }
 
     .header-container {
-        height: 50px;
+        height: 12px;
         justify-content: space-between;
         align-items: center;
         padding: 0px 12px;

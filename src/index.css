@@ -4,7 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -131,4 +130,58 @@ li > img {
   height: 25px;
   width: 25px;
   color: white
+}
+
+@media screen and (max-width: 600px) {
+  .controls-container {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .services-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .services-container > * {
+    margin: 12px 8px
+  }
+
+  .bundles-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bundles-container > * {
+    margin: 12px 8px
+  }
+  
+  .buses-description {
+    flex-direction: column;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+  }
+
+  .section-container {
+    padding: 0px;
+  }
+
+  .buses-description > p {
+    width: 100%;
+    line-height: 16px;
+  }
+  
+  
 }

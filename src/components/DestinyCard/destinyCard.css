@@ -30,8 +30,35 @@
         display: flex;
         width: 100%;
     }
+
     .destiny-container > p {
         width: 50%;
         padding: 0 25px;
         line-height: 25px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .destiny-container {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-container {
+            width: 50%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-container > h2 {
+            font-size: 20px
+        }
+
+        .destiny-container > p {
+            width: 50%;
+            padding: 0 25px;
+            line-height: 25px;
+        }
     }
