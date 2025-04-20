@@ -180,8 +180,23 @@ li > img {
 
   .buses-description > p {
     width: 100%;
-    line-height: 16px;
+    line-height: 20px;
   }
+
+  .control-button {
+    background-color: #f05446;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 80%;
+    padding: 12px 12px;
+  }  
   
-  
+  .section-container {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
